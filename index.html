@@ -59,7 +59,7 @@ header {
   background-color: white;
   border: 3px solid white;
   border-radius: 30px;
-  animation: cloudanimation 10s ease infinite;
+  animation: cloudanimation 10s linear infinite;
 }
 @keyframes firetitle {
   0%,100% {color: red;}
@@ -67,8 +67,7 @@ header {
   66% {color: blue;}
 }
 @keyframes cloudanimation {
-  0%,100% {transform: rotate(360deg);}
-  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
 }
 
 a:link {text-decoration: none; color: black;}
