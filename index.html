@@ -64,14 +64,6 @@ header {
   border-radius: 30px;
   animation: cloudanimation 10s linear infinite;
 }
-.loz {
-  position: absolute;
-  top: 40px;
-  left: 50px;
-  width: 60px;
-  image-rendering: pixelated;
-  animation: walking 20s linear infinite;
-}
 @keyframes firetitle {
   0%,100% {color: red;}
   33% {color: green;}
@@ -79,10 +71,6 @@ header {
 }
 @keyframes cloudanimation {
   100% {transform: rotate(360deg);}
-}
-@keyframes walking {
-  0% {left: -10%;}
-  100% {left: 100%;}
 }
 
 a:link {text-decoration: none; color: white;}
@@ -99,8 +87,6 @@ a:hover {text-decoration: none; color: white; background-color: grey;}
 <header>
   <h1 style="margin:0px;">Owxri's Website</h1>
 </header>
-
-<image class="loz" src="images/Untitled.gif">
   
 <div class="toolbar">
   <a href="#about-me" class="button">About Me</a>
