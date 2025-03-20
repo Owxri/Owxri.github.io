@@ -65,6 +65,12 @@ header {
   border-radius: 30px;
   animation: cloudanimation 10s linear infinite;
 }
+.cell {
+  border:1px black solid;
+  padding:10px;
+  vertical-align:top;
+  border-radius: 10px;
+}
 @keyframes firetitle {
   0%,100% {color: red;}
   33% {color: green;}
@@ -137,20 +143,22 @@ a:hover {text-decoration: none; color: white; background-color: grey;}
 
   <table style="width:100%;height:600px;">
     <tr>
-      <td style="border:1px black solid;padding:10px;vertical-align:top;">test1</td>
-      <td style="border:1px black solid;padding:10px;">test2</td>
+      <td class="cell">
+        The Importance of Language Learning<br>
+        I do think that learning a second language is a very useful skill that all people should strive for.
+        It gives you insight on not only the learnt language but also your native one...
+      </td>
+      <td class="cell">test2</td>
     </tr>
     <tr>
-      <td style="border:1px black solid;padding:10px;">test3</td>
-      <td style="border:1px black solid;padding:10px;">test4</td>
+      <td class="cell">test3</td>
+      <td class="cell">test4</td>
     </tr>
   </table>
   
   <div style="height:600px;border:10px solid purple;">
     <div style="width:50%;height:300px;background-color:red;float:left;">
-      The Importance of Language Learning<br>
-      I do think that learning a second language is a very useful skill that all people should strive for.
-      It gives you insight on not only the learnt language but also your native one...
+      test12345678
     </div>
     <div style="width:50%;height:300px;background-color:green;float:left;">
       hello test 2<br>
