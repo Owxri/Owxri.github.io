@@ -80,11 +80,11 @@ header {
   100% {transform: rotate(360deg);}
 }
 
-a:link {text-decoration: none; color: white;}
-a:visited {text-decoration: none; color: white;}
-a:focus {text-decoration: none; color: white;}
-a:active {text-decoration: none; color: white;}
+a:link, a:visited, a:focus, a:active {text-decoration: none; color: white;}
 a:hover {text-decoration: none; color: white; background-color: grey;}
+
+a.norm:link, a:visited, a:focus, a:active {text-decoration: none; color: black;}
+a.norm:hover {text-decoration: none; color: blue;}
 
 
 </style>
@@ -179,7 +179,7 @@ a:hover {text-decoration: none; color: white; background-color: grey;}
         &emsp; A metal band, makes me glow <br>
         &emsp; &emsp; What am I?<br>
         <br>
-        <a href="riddles.html">Some more riddles</a>
+        <a class="norm" href="riddles.html">Some more riddles</a>
       </td>
     </tr>
     <tr style="height:300px;">
