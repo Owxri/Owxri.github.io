@@ -9,7 +9,7 @@ body {
   color: black;
   font-family: Sans-serif;
   font-size: 18px;
-  margin: 10px;
+  margin: 0px;
   /*cursor: url("cursors/ezgif.png"), auto;*/
 }
 header {
@@ -21,7 +21,7 @@ header {
   background-color: firebrick;
 }
 
-.topSec {
+.greySec {
   border: 0px solid black;
   margin: 0px;
   padding: 0px;
@@ -29,6 +29,13 @@ header {
   justify-content: space-around;
   background-color: grey;
   color: white;
+}
+.mainSec {
+  border: 0px solid black;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
 }
 .button {
   align: left;
@@ -78,10 +85,22 @@ a.norm:hover {text-decoration: underline; color: blue; background-color: transpa
 
 
 
-<div class="topSec">
-  <p>GOV LOGO</p>
+<div class="greySec">
+  <p style="width:10%;">GOV LOGO</p>
   <p>AAAA government</p>
   <p>Hello World!</p>
+</div>
+
+<div class="mainSec">
+  <p style="width:10%;">GOV LOGO</p>
+  <p>AAAA government</p>
+  <p>Hello World!</p>
+</div>
+
+<div class="greySec">
+  <p style="width:10%;">Terms of use</p>
+  <p style="width:10%;">Privacy</p>
+  <p style="width:10%;">About this website</p>
 </div>
 
 <table style="width:100%;table-layout:fixed;">
@@ -97,18 +116,6 @@ a.norm:hover {text-decoration: underline; color: blue; background-color: transpa
       &emsp;- not bad<br>
       <br>
       <br>
-    </td>
-  </tr>
-  
-  <tr style="height:300px;">
-    <td>
-      Terms of use
-    </td>
-    <td>
-      Privacy
-    </td>
-    <td>
-      About this website
     </td>
   </tr>
 </table>
